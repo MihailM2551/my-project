@@ -1,0 +1,218 @@
+    1  ssh - keygen -C mihailm2551@gmail.com
+    2  св
+    3  cd
+    4  cat .ssh/id_ed25519.pub
+    5  pwd
+    6  cd
+    7  mkdir ICH-Courses
+    8  cd ICH-Courses
+    9  echo "# ICH-Courses" >> README.md
+   10  ls
+   11  git init
+   12  ls -a
+   13  tree
+   14  ls -aR
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -m "addet file README.md"
+   19  git branch -M main
+   20  git remote add origin git@github.com:MihailM2551/ICH-Courses.git
+   21  git config --global user.email "mihailm2551@gmail.com"
+   22   git config --global user.name "MihailM2551"
+   23   git remote -v
+   24  git push -u origin main
+   25  git status
+   26  git commit -m "addet file README.md"
+   27  git push -u origin main
+   28  mkdir git_intro
+   29  cd git_intro
+   30  git init
+   31  git init
+   32  git add cat.jpg
+   33  git branch -M main
+   34  git remote add origin git@github.com.MihailM2551/git_intro.git
+   35  git push -u origin main
+   36  git remote add origin git@github.com/MihailM2551/git_intro.git
+   37  git push -u origin main
+   38  git remote add origin git@github.com/MihailM2551/git_intro.git
+   39  git push -u origin main
+   40  git remote add origin git@github.com/MihailM2551/git_intro.git
+   41  git status
+   42  git commit -m "Added photo"
+   43  git branch
+   44  git push -u origin main
+   45  git remote remove origin
+   46  git remote add origin git@github.com:MihailM2551/git_intro.git
+   47  git push -u origin main
+   48  ssh ec2-user@linux.itcareerhub.de
+   49  cd
+   50  mkdir -p 08.04
+   51  cd 08.04
+   52  cd 08.04 ls
+   53  cd 08.04 ls -l
+   54  cd 08.04 % 
+   55  git push -u origin main
+   56  git add file.txt
+   57  .git
+   58  git
+   59  clear
+   60  echo "# 08.04" >> README.md
+   61  git init
+   62  git commit -m "first commit"
+   63  git branch -M main
+   64  git remote add origin git@github.com:MihailM2551/08.04.git
+   65  git push -u origin main
+   66  cd 08.04 ls
+   67  cd 08.04 ls -l
+   68  git add file.txt
+   69  ssh -T git@github.com
+   70  mkdir test
+   71  mkdir folder
+   72  touch folder/file2.txt
+   73  ls -l
+   74  git add .
+   75  git status
+   76  git commit -m "added folder"
+   77  ls
+   78  git branch
+   79  git checkout -b test
+   80  git branch
+   81  cd
+   82  git clone git@github.com:MihailM2551/bash-tetris.git
+   83  cd bash-tetris/
+   84  ls -la
+   85  git log
+   86  ./tetris.sh 
+   87  ssh ec2-user@linux.itcareerhub.de
+   88  mkdir git-branch
+   89  cd git-branch
+   90  git init
+   91  git remote add origin github.com:MihailM2551/git-branch.git
+   92  git checkout -b gitignore
+   93  curl -o .gitignore https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+   94  cat .gitignore
+   95  git add .gitignore
+   96  git commit -m 
+   97  git commit -m "file added .gitignore"
+   98  git push -u origin gitignore
+   99  ls -al ~/.ssh
+  100  ssh -T git@github.com
+  101  git remote set-url origin git@github.com:ТВОЙ_ЮЗЕР/git-branch.git
+  102  git remote set-url origin git@github.com:MihailM2551/git-branch.git
+  103  git remote -v
+  104  push -u origin gitignore~
+  105  git push -u origin gitignore
+  106  ssh linux.itcareerhub.de
+  107  ssh ec2-user@linux.itcareerhub.de
+  108  winget install Schniz.fnm
+  109  fnm install 22
+  110  powershell -c "irm https://community.chocolatey.org/install.ps1|iex"
+  111  choco install nodejs-lts --version="22"
+  112  fnm install 22
+  113  fnm unstall 22
+  114  fnm install 22
+  115  fnm install 22
+  116  node -v
+  117  cd
+  118  git clone git@github.com:MihailM2551/git-PR.git
+  119  cd git-PR
+  120  ls -la
+  121  git remote -v
+  122  upstream
+  123  git branch 'issue#15'
+  124  git checkout -b issue#15
+  125  mkdir 29.04
+  126  echo "data" > 29.04/test.txt
+  127  ls -laR
+  128  git add .
+  129  git status
+  130  git commit -m "issue #15"
+  131  git checkout main
+  132  git merge issue#15 
+  133  git merge origin
+  134  git branch
+  135  git merge  issue#15
+  136  ls -la
+  137  git status
+  138  git push -u origin main
+  139  git remote -v
+  140  git fetch upstream
+  141  ls -la
+  142  git merge upstream/main
+  143  'git push origin main
+  144  git push origin main
+  145  git status
+  146  git fetch upstream
+  147  git status
+  148  '
+  149  git status
+  150  ls -la
+  151  mkdir my-project && my-project
+  152  git init
+  153  echo 
+  154  echo "node_modules/.DS_Store/dist">.gitignore
+  155  echo "#My Preject" > ReadMe.md
+  156  git remote add origin git@github.com:MihailM2551/my-project.git
+  157  git add .gitignore ReadMe.md
+  158  git commit -m "Initial commit: add ReadMe and .gitignore"
+  159  git push -u origin main
+  160  git push -u origin master
+  161  git clone git@github.com:MihailM2551/my-project.git
+  162  git clone git@github.com:MihailM2551/my-project.git
+  163  cd my-project
+  164  git checkout -b feature
+  165  echo "## new section in ReadMe'
+echo "## new section in ReadMe" >> ReadMe.md
+echo ".env" >> .gitignore
+git add ReadMe.md .gitignore
+git commit -m "Update ReadMe and .gitignore in feature"
+git push -u origin feature
+
+
+'
+echo "## new section in ReadMe'
+echo "## new section in ReadMe" >> ReadMe.md
+echo ".env" >> .gitignore
+git add ReadMe.md .gitignore
+git commit -m "Update ReadMe and .gitignore in feature"
+git push -u origin feature
+
+
+"
+  166  echo "## new section in ReadMe" >> ReadMe.md
+  167  echo ".env" >> .gitignore
+  168  git add ReadMe.md .gitignore
+  169  git add ReadMe.md .gitignore
+  170  git commit -m "Update ReadMe and .gitignore in feature"
+  171  git push -u origin feature
+  172  git commit --amend
+  173  git push --force-with-lease origin feature
+  174  git checkout main
+  175  git merge feature
+  176  git push origin main
+  177  git pull origin main
+  178  git pull origin master
+  179  git pull origin feature
+  180  git push origin feature
+  181  git checkout master
+  182  git pull origin master
+  183  git pull origin main
+  184  git fetch origin
+  185  git branch -r
+  186  git pull origin main
+  187  git pull origin master
+  188  git branch -m master main
+  189  git branch
+  190  git fetch origin
+  191  git branch -r
+  192  git checkout -b master origin/feature
+  193  git checkout -b main origin/master
+  194  git checkout -b main origin/main
+  195  git checkout -b feature
+  196  git checkout master
+  197  git branch -M main
+  198  git checkout main
+  199  git merge feature
+  200  git push origin main
+  201  history > history.txt
